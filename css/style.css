@@ -1,0 +1,147 @@
+body {
+  color: #808080;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #242a2b;
+  line-height: 1.2;
+}
+
+.h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.44px;
+}
+
+.h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.h4 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.btn {
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 1.02px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all;
+}
+
+.btn-sm {
+  height: 3.5rem; /* 56px */
+  padding-left: 2.5rem; /* 40px */
+  padding-right: 2.5rem; /* 40px */
+}
+
+.btn-lg {
+  height: 4rem; /* 64px */
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.btn-accent {
+  background-color: #1cbccf;
+  color: #fff;
+}
+.btn-accent:hover {
+  background-color: #18abbc;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #808080;
+}
+.btn-white:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border-width: 2px;
+  border-color: #1cbccf;
+  color: #808080;
+}
+
+.btn-outline:hover {
+  background-color: #1cbccf;
+  border-color: transparent;
+  color: #fff;
+}
+
+.input,
+.select {
+  width: 100%;
+  border-radius: 10px;
+  height: 66px;
+  outline: none;
+  border-width: 1px;
+  border-color: #dfdfdf;
+  color: #808080;
+  font-weight: 200;
+}
+
+.input::placeholder,
+.select::placeholder {
+  font-weight: 200;
+  color: #808080;
+}
+
+.input {
+  padding-left: 1rem; /* 16px */
+  padding-right: 1rem; /* 16px */
+}
+
+.section {
+  padding-top: 3rem; /* 48px */
+  padding-bottom: 3rem; /* 48px */
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    background-color: #1cbccf;
+}
+
+.faq__item.open .faq__answer{
+    height: 100%;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1330px) {
+  .h1 {
+    font-size: 64px;
+  }
+  .h2 {
+    font-size: 44px;
+  }
+  .h3 {
+    font-size: 26px;
+  }
+  .h4 {
+    font-size: 26px;
+  }
+  .section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
