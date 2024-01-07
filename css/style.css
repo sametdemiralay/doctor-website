@@ -38,6 +38,10 @@ h6 {
   text-transform: capitalize;
 }
 
+p{
+    line-height: 2;
+}
+
 .btn {
   border-radius: 9999px;
   text-transform: uppercase;
@@ -61,16 +65,16 @@ h6 {
 }
 
 .btn-accent {
-  background-color: #1cbccf;
+  background-color: #1cbccf !important;
   color: #fff;
 }
 .btn-accent:hover {
-  background-color: #18abbc;
+  background-color: #18abbc !important;
 }
 
 .btn-white {
-  background-color: #fff;
-  color: #808080;
+  background-color: #fff !important;
+  color: #808080 !important;
 }
 .btn-white:hover {
   background-color: rgba(255, 255, 255, 0.9);
